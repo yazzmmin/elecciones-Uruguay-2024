@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elecciones Presidenciales Uruguay 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe4e1; /* Rosa pastel */
+            color: #333;
+        }
+        header {
+            background-color: #ffb6c1; /* Rosa pastel oscuro */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffc0cb; /* Rosa pastel claro */
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #ff69b4; /* Rosa fuerte */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ffb6c1;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .resultados img {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .resultados-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .resultados-table th, .resultados-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .resultados-table th {
+            background-color: #ffc0cb;
+            color: white;
+        }
+        .candidatos {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .candidato {
+            flex: 1;
+            background-color: #ffe4e1;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+        .candidato img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .candidato h3 {
+            color: #ff69b4;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elecciones Presidenciales Uruguay 2024</h1>
+</header>
+
+<nav>
+    <a href="#informacion">Información</a>
+    <a href="#fechas">Fechas Importantes</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#candidatos">Candidatos</a>
+    <a href="#antes-despues">Antes y Después</a>
+</nav>
+
+<div class="container">
+    <!-- Información General -->
+    <section id="informacion" class="section">
+        <h2>Información General</h2>
+        <p>Las elecciones presidenciales de Uruguay 2024 se llevaron a cabo en dos vueltas. Yamandú Orsi, representante del Frente Amplio, ganó la segunda vuelta con el 54% de los votos frente a Álvaro Delgado del Partido Nacional. La elección se caracterizó por una alta participación ciudadana y la alternancia de poder en un ambiente democrático.</p>
+        <p>La primera vuelta se celebró el 27 de octubre de 2024, y la segunda vuelta el 24 de noviembre del mismo año. El proceso electoral estuvo marcado por el trabajo conjunto de los partidos y el civismo de los votantes.</p>
+        
+    <!-- Fechas Importantes -->
+    <section id="fechas" class="section">
+        <h2>Fechas Importantes</h2>
+        <ul>
+            <li><strong>Inscripción de votantes:</strong> Hasta el 31 de marzo de 2024.</li>
+            <li><strong>Primera vuelta:</strong> 27 de octubre de 2024.</li>
+            <li><strong>Segunda vuelta:</strong> 24 de noviembre de 2024.</li>
+        </ul>
+       
+    <!-- Resultados -->
+    <section id="resultados" class="section">
+        <h2>Resultados</h2>
+        <h3>Primera Vuelta</h3>
+        <p>En la primera vuelta, los resultados fueron los siguientes:</p>
+        <table class="resultados-table">
+            <thead>
+                <tr>
+                    <th>Candidato</th>
+                    <th>Partido</th>
+                    <th>Votos</th>
+                    <th>Porcentaje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yamandú Orsi</td>
+                    <td>Frente Amplio</td>
+                    <td>1,071,826</td>
+                    <td>46.12%</td>
+                </tr>
+                <tr>
+                    <td>Álvaro Delgado</td>
+                    <td>Partido Nacional</td>
+                    <td>655,426</td>
+                    <td>28.20%</td>
+                </tr>
+                <tr>
+                    <td>Andrés Ojeda</td>
+                    <td>Partido Colorado</td>
+                    <td>392,592</td>
+                    <td>16.89%</td>
+                </tr>
+                <tr>
+                    <td>Gustavo Salle</td>
+                    <td>Identidad Soberana</td>
+                    <td>65,796</td>
+                    <td>2.83%</td>
+                </tr>
+                <tr>
+                    <td>Guido Manini Ríos</td>
+                    <td>Cabildo Abierto</td>
+                    <td>60,549</td>
+                    <td>2.61%</td>
+                </tr>
+                <tr>
+                    <td>Pablo Mieres</td>
+                    <td>Partido Independiente</td>
+                    <td>41,618</td>
+                    <td>1.79%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Segunda Vuelta</h3>
+        <p>En la segunda vuelta, Yamandú Orsi ganó con el 54% de los votos, mientras que Álvaro Delgado obtuvo el 46%:</p>
+        <table class="resultados-table">
+            <thead>
+                <tr>
+                    <th>Candidato</th>
+                    <th>Partido</th>
+                    <th>Votos</th>
+                    <th>Porcentaje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yamandú Orsi</td>
+                    <td>Frente Amplio</td>
+                    <td>1,196,798</td>
+                    <td>52.02%</td>
+                </tr>
+                <tr>
+                    <td>Álvaro Delgado</td>
+                    <td>Partido Nacional</td>
+                    <td>1,101,296</td>
+                    <td>47.98%</td>
+                </tr>
+            </tbody>
+        </table>
+       
+    </section>
+
+    <!-- Candidatos -->
+    <section id="candidatos" class="section">
+        <h2>Candidatos</h2>
+        <div class="candidatos">
+            <div class="candidato">
+                               <h3>Yamandú Orsi</h3>
+                <p>Candidato del Frente Amplio, Yamandú Orsi fue electo presidente en la segunda vuelta. Su compañera de fórmula es Carolina Cosse. Obtuvieron 16 senadores y 48 diputados.</p>
+            </div>
+            <div class="candidato">
+                              <h3>Álvaro Delgado</h3>
+                <p>Candidato del Partido Nacional, acompañado por Valeria Ripoll como compañera de fórmula. Aunque no ganó, lideró la coalición republicana con fuerza.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Antes y Después -->
+    <section id="antes-despues" class="section">
+        <h2>Antes y Después de las Elecciones</h2>
+        <p><strong>Antes:</strong> La campaña estuvo marcada por debates sobre seguridad y economía. Hubo movilizaciones y actos multitudinarios en todo el país.</p>
+        <p><strong>Después:</strong> Tras el triunfo del Frente Amplio, se inició una transición ordenada con negociaciones clave para el nuevo gabinete.</p>
+          </section>
+</div>
+
+<footer>
+    <p>© 2024 Elecciones Presidenciales Uruguay. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
